@@ -3,22 +3,24 @@ Using OpenSSL CHIL Engine with a Thales nCipher HSM to Protect Sensitive Data
 
 The following steps overview a method for "double" encrypting sensitive files with self-signed certificates whose keys are protected in hardware by a Thales nCipher HSM.
 
-Sample Use Case:
+### Sample Use Case:
 - An organization is operating multiple sites across various geographic regions and needs to securely transmit data from Site X to Site Y. Due to the nature of the data, "out of band" transfer (e.g. physical mail) is required.
 
-Assumptions:
+### Assumptions:
 - HSM security world has been created and has been shared across all involved sites.
 - Recipient sites are in possession of a quorum of the HSM operator card set (OCS). 
 
-General Notes:
+### General Notes:
 - Replace [OCS_NAME] with your target OCS name.
 - Replace [DESIRED_CERT_DN_1] with the desired DN for the first self-signed certificate.
 - Replace [DESIRED_CERT_DN_2] with the desired DN for the second self-signed certificate.
 - The "Data Target Site" is where the data is being transferred to.
 - The "Data Source Site" is where the data is being transferred from.
 
+### The Process:
 
-````1 - Create "Decryption" Private Key #1 (at Data Target Site)
+````
+1 - Create "Decryption" Private Key #1 (at Data Target Site)
 ==================================================
 # mkdir /home/babcat/key-wrapper
 # /opt/nfast/bin/generatekey hwcrhk
