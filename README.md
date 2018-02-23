@@ -61,7 +61,7 @@ Key successfully generated.
 Path to key: /opt/nfast/kmdata/local/key_hwcrhk_rsa-wrappingKey1
 
 
-2 - Create Wrapping Private Key #2 (at Data Target Site)
+2 -  Create "Decryption" Private Key #2 (at Data Target Site)
 ==================================================
 # /opt/nfast/bin/generatekey hwcrhk
 protect: Protected by? (token, module) [token] > token
