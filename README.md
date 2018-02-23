@@ -18,7 +18,7 @@ General Notes:
 - The "Data Source Site" is where the data is being transferred from.
 
 
-1 - Create "Decryption" Private Key #1 (at Data Target Site)
+````1 - Create "Decryption" Private Key #1 (at Data Target Site)
 ==================================================
 # mkdir /home/babcat/key-wrapper
 # /opt/nfast/bin/generatekey hwcrhk
@@ -176,3 +176,4 @@ engine "chil" set.
 Enter pass phrase for : [ENTER OCS PASSPHRASE]
 
 - The /home/babcat/datacall.tgz will be decrypted.
+````
