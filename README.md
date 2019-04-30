@@ -182,4 +182,5 @@ Enter pass phrase for : [ENTER OCS PASSPHRASE]
 
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/ryancdickson/Key-Wrapper/blob/master/img/icon48.png "Logo Title Text 1")
 
