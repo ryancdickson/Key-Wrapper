@@ -179,3 +179,7 @@ Enter pass phrase for : [ENTER OCS PASSPHRASE]
 
 - The /home/babcat/datacall.tgz will be decrypted.
 ````
+
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
